@@ -6,7 +6,48 @@
 .contact {
   max-width: 100vw;
 }
+
 @media screen and (max-width: 600px) {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* always have */
+
+#menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 40vw;
+}
+#hamburger-icon {
+  display: none;
+}
+#menu-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    min-height: 8vh;
+  }
+  #menu {
+    width: 100%;
+    flex-direction: column;
+    display: none;
+  }
+  #hamburger-icon {
+    display: block;
+  }
+
+  #menu-toggle:checked + #menu {
+    display: flex;
+  }
   .nav-dsk {
     display: none;
   }
