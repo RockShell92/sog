@@ -117,20 +117,21 @@
         style="background-image: url(./assets/patterns/this-one.png)"
       >
         <div
-          class="flex flex-wrap items-center mx-auto max-w-screen-xl px-2 md:px-6 py-2.5 justify-between"
+          class="flex flex-wrap items-center mx-auto max-w-screen-xl px-2 md:px-6 justify-between"
         >
-          <div class="logo-pn flex items-center">
-            <a href="./index.html" class="flex static">
+          <div class="logo-pn flex items-baseline">
+            <a href="./index.html" class="flex relative left-0 top-16">
               <img
                 src="./assets/logo/blue-logo.png"
-                class="mr-3 w-32 z-10"
+                class="mr-3 w-60 z-10"
                 id="logo"
                 alt="SOG-Logo"
               />
             </a>
             <a
-              href="tel:5541251234"
+              href="tel:6158518222"
               class="text-xl font-semibold text-white hover:underline font-roboto"
+              id="pn"
               >(615) 851-8222</a
             >
           </div>
@@ -152,8 +153,13 @@
               class="flex flex-row mt-0 mr-6 space-x-8 text-3xl font-poppins font-medium"
             >
               <li>
-                <a href="#about" class="text-sogblu hover:underline">ABOUT</a>
+                <a href="./index.html" class="text-sogblu hover:underline"
+                  >HOME</a
+                >
               </li>
+              <!-- <li>
+                <a href="#about" class="text-sogblu hover:underline">ABOUT</a>
+              </li> -->
               <li>
                 <a href="#signs" class="text-sogblu hover:underline">SIGNS</a>
               </li>
@@ -173,7 +179,7 @@
                 >
               </li>
               <li>
-                <a href="#portfolio" class="text-sogblu hover:underline"
+                <a href="./portfolio.html" class="text-sogblu hover:underline"
                   >PORTFOLIO</a
                 >
               </li>
@@ -194,10 +200,6 @@
           id="about"
         >
           <div class="text-white text-center text-xl">
-            <div class="text-sogblu text-5xl font-poppins font-semibold">
-              <h1>ABOUT</h1>
-              <br />
-            </div>
             <div class="font-roboto text-left">
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -230,12 +232,12 @@
               <div class="card-txt">
                 <div class="title-card flex">
                   <div
-                    class="xtra lg:text-8xl md:text-8xl text-2xl align-center text-sogblu"
+                    class="title xtra lg:text-8xl md:text-8xl text-2xl align-center text-sogblu"
                   >
                     <a href="./signs.html">&#8942;</a>
                   </div>
                   <h5
-                    class="text-sogblu lg:text-8xl md:text-8xl text-2xl leading-tight font-semibold mb-2"
+                    class="text-sogblu lg:text-8xl md:text-8xl text-2xl leading-tight font-semibold mb-2 font-roboto"
                   >
                     SIGNS
                   </h5>
@@ -266,7 +268,7 @@
                     <a href="./products.html">&#8942;</a>
                   </div>
                   <h5
-                    class="text-sogblu leading-tight font-semibold mb-2 lg:text-8xl md:text-8xl text-2xl"
+                    class="title text-sogblu leading-tight font-semibold mb-2 lg:text-8xl md:text-8xl text-2xl font-roboto"
                   >
                     PRODUCTS
                   </h5>
@@ -297,7 +299,7 @@
                     <a href="./services.html">&#8942;</a>
                   </div>
                   <h5
-                    class="text-sogblu lg:text-8xl md:text-8xl text-2xl leading-tight font-semibold mb-2"
+                    class="title text-sogblu lg:text-8xl md:text-8xl text-2xl leading-tight font-semibold mb-2 font-roboto"
                   >
                     SERVICES
                   </h5>
@@ -321,7 +323,7 @@
           <div class="text-white text-center lg:text-2xl md:text-2xl">
             <div
               id="contact"
-              class="text-sogblu text-5xl font-poppins font-semibold"
+              class="title text-sogblu lg:text-8xl md:text-8xl text-2xl leading-tight font-semibold mb-2 font-roboto"
             >
               <h1>CONTACT</h1>
             </div>
@@ -434,48 +436,9 @@
             </div>
           </div>
         </div>
-        <div class="grid sm:grid-col-1 lg:grid-col-5 md:grid-col-5 gap-3 m-10">
-          <div class="col-span-9 my-auto">
-            <img src="./assets/photos/elevate-escalator.png" alt="" />
-          </div>
-          <div class="col-span-4 my-auto">
-            <img src="./assets/photos/baseball.png" alt="" />
-          </div>
-          <div class="col-span-5 my-auto">
-            <img src="./assets/photos/elevate-window.png" alt="" />
-          </div>
-
-          <div class="col-span-4 my-auto">
-            <img src="./assets/photos/semi.png" alt="" />
-          </div>
-
-          <div class="col-span-2 my-auto">
-            <img src="./assets/photos/jeep.png" alt="" />
-          </div>
-          <div class="col-span-3 my-auto">
-            <img src="./assets/photos/pretty-pic.png" alt="" />
-          </div>
-          <div class="col-span-3 my-auto">
-            <img src="./assets/photos/security-truck.png" alt="" />
-          </div>
-
-          <div class="col-span-6 m-auto">
-            <img src="./assets/photos/armoured-combat.png" alt="" />
-          </div>
-
-          <div class="col-span-7 m-auto">
-            <img src="./assets/photos/pretty-pic-staged.png" alt="" />
-          </div>
-          <div class="col-span-2 m-auto">
-            <img src="./assets/photos/music-ranch.png" alt="" />
-          </div>
-
-          <div class="col-span-9 m-auto">
-            <img src="./assets/photos/halloween-express.png" alt="" />
-          </div>
-        </div>
       </div>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
     <script>
       window.onscroll = function () {
@@ -484,20 +447,28 @@
 
       function scrollFunction() {
         if (
-          document.body.scrollTop > 500 ||
-          document.documentElement.scrollTop > 500
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
         ) {
-          document.getElementById("logo").style.width = "80px";
+          document.getElementById("logo").style.width = "7rem";
         } else {
-          document.getElementById("logo").style.width = "128px";
+          document.getElementById("logo").style.width = "15rem";
         }
         if (
-          document.body.scrollTop > 500 ||
-          document.documentElement.scrollTop > 500
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
         ) {
-          document.getElementById("awg").style.width = "80px";
+          document.getElementById("awg").style.display = "none";
         } else {
-          document.getElementById("awg").style.width = "128px";
+          document.getElementById("awg").style.display = "flex";
+        }
+        if (
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
+        ) {
+          document.getElementById("pn").style.display = "none";
+        } else {
+          document.getElementById("pn").style.display = "flex";
         }
       }
     </script>
